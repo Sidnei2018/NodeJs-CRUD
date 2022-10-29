@@ -9,7 +9,8 @@ Habilidades e tecnologias utilizadas no projeto:
 3 - Jest<br>
 4 - CI/CD<br>
 5 - Git<br>
-6 - Testes de unidade
+6 - Insomnia<br>
+7 - Testes de unidade
 
 ### Aplicação construída e rodando em ambiente de servidor
 
