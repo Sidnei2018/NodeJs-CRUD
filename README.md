@@ -4,12 +4,12 @@
 
 Habilidades e tecnologias utilizadas no projeto:
 
-1- Javascript,<br>
-2- NodeJs,<br>
-3- Jest,<br>
-4- CI/CD,<br>
-5- Git,<br>
-6- Testes de unidade!
+1 - Javascript<br>
+2 - NodeJs<br>
+3 - Jest<br>
+4 - CI/CD<br>
+5 - Git<br>
+6 - Testes de unidade
 
 ### Aplicação construída e rodando em ambiente de servidor
 
