@@ -1,0 +1,38 @@
+name: NodeJs-CRUD
+on:
+workflow_dispatch:
+
+jobs:
+build:
+runs-on: ubunto-latest
+steps:
+-name: Run a one-line script
+run: echo Hello, world!
+
+
+deploy-desenvolvimento:
+runs-on: ubunto-latest
+environment:
+name: Dev
+url: 'github.com/Sidnei2018'
+needs: build
+-name: Run a one-line script
+run: echo deploy Dev
+
+deploy-Qa:
+runs-on: ubunto-latest
+environment:
+name: Qa
+url: 'github.com/Sidnei2018'
+needs: build
+-name: Run a one-line script
+run: echo deploy Qa
+
+deploy-Produção:
+runs-on: ubunto-latest
+environment:
+name: Prod
+url: 'github.com/Sidnei2018'
+needs: build
+-name: Run a one-line script
+run: echo deploy Prod
